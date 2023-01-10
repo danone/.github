@@ -1,6 +1,6 @@
 {
     "name": "DevSecOps PR Workflow",
-    "description": "Danone Organization starter workflow for shift-left approach.",
+    "description": "Danone Organization starter workflow includes DevSecOps Tools for analyzing code. Recommended for PR Build Validation.",
     "iconName": "git",
     "categories": [
         "JavaScript",
