@@ -1,9 +1,9 @@
 {
     "name": "DevSecOps PR Workflow",
     "description": "Danone Organization starter workflow for shift-left approach.",
-    "iconName": "example-icon",
+    "iconName": "git",
     "categories": [
-        "Java",
+        "JavaScript",
         "C#"
     ],
     "filePatterns": [
