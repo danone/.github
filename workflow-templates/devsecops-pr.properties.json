@@ -1,0 +1,14 @@
+{
+    "name": "DevSecOps PR Workflow",
+    "description": "Danone Organization starter workflow for shift-left approach.",
+    "iconName": "example-icon",
+    "categories": [
+        "Java",
+        "C#"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.csproj$"
+    ]
+}

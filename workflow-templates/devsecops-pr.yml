@@ -1,0 +1,21 @@
+name: PR-validation
+# Controls when the action will run. Triggers the workflow on push or pull request events but only for the master branch
+on:
+  pull_request:
+    branches:
+    - main
+  workflow_dispatch:
+
+jobs:
+    cx-codeql-analyze:
+      uses: danone/mag.shared-worfklows/.github/workflows/secops-pr.yml@dev
+      with:
+        language: 'java'
+      secrets: inherit
+    
+    build:
+      uses: danone/mag.shared-worfklows/.github/workflows/build.yml@dev
+      with:
+        language: 'dotnet'
+        #node-version: '18.x'
+        dotnet-version: '6.0.x'
